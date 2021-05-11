@@ -22,7 +22,9 @@ function each(children, fn, options = {}) {
         if (depth === maxDepth) {
             break;
         }
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
         if (react_1.isValidElement(element) && element.props.children) {
+            // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
             react_1.Children.forEach(element.props.children, (el) => scheduler(el, depth + 1));
         }
     }
