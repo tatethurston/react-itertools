@@ -31,6 +31,12 @@ A suite of tools for manipulating React children: `each`, `filter`, `find`, `gro
 1. Add this package to your project:
    - `yarn add react-itertools`
 
+Just trying things out or want to skip the build step? Use the unpkg URL:
+
+```
+<script src="https://unpkg.com/react-itertools/dist/index.production.js"></script>
+```
+
 ## Example
 
 [Try the CodeSandbox Example!](https://codesandbox.io/s/flamboyant-nightingale-yvirv?file=/src/App.js)
