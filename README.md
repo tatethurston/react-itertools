@@ -34,7 +34,10 @@ A suite of tools for manipulating React children: `each`, `filter`, `find`, `gro
 ## Highlights
 
 🎁 Zero run time dependencies
+
 🦶 [Small footprint](https://bundlephobia.com/result?p=react-itertools)
+
+🌲 Tree shakeable
 
 ## Contributing 👫
 
