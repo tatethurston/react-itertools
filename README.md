@@ -31,6 +31,56 @@ A suite of tools for manipulating React children: `each`, `filter`, `find`, `gro
 1. Add this package to your project:
    - `yarn add react-itertools`
 
+## Example
+
+[Try the CodeSandbox Example!](https://codesandbox.io/s/flamboyant-nightingale-yvirv?file=/src/App.js)
+
+```jsx
+import { map } from "react-itertools";
+import { isValidElement } from "react";
+
+const MapExample = ({ children }) => {
+  const fn = (el) => {
+    return (
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          backgroundColor: "blanchedalmond",
+        }}
+      >
+        {isValidElement(el) && el.props.children}
+      </div>
+    );
+  };
+  return <>{map(children, fn)}</>;
+};
+
+export default function App() {
+  return (
+    <>
+      <p>
+        `map` recursively iterates through all `children` and returns the
+        transformed result of applying `fn` to each child.
+      </p>
+      <p>Recurses depth first, post-order.</p>
+      <MapExample>
+        <div>
+          <div>
+            <div />
+            <div />
+          </div>
+          <div>
+            <div />
+            <div />
+          </div>
+        </div>
+      </MapExample>
+    </>
+  );
+}
+```
+
 ## Highlights
 
 🎁 Zero run time dependencies
@@ -46,3 +96,7 @@ PR's and issues welcomed! For more guidance check out [CONTRIBUTING.md](https://
 ## Licensing 📃
 
 See the project's [MIT License](https://github.com/tatethurston/react-itertools/blob/master/LICENSE).
+
+```
+
+```
