@@ -54,14 +54,14 @@
     "webpack-cli": "^4.7.0"
   },
   "keywords": [
-    "react",
+    "all children",
     "children",
-    "recursive",
+    "iterate",
     "map",
     "map recursive",
-    "all children",
-    "iterate",
-    "reactjs"
+    "react",
+    "reactjs",
+    "recursive"
   ],
   "husky": {
     "hooks": {
