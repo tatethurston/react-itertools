@@ -93,7 +93,9 @@ export default function App() {
 
 🦶 [Small footprint](https://bundlephobia.com/result?p=react-itertools)
 
-🌲 Tree shakeable
+🌲 [Tree shakeable](https://webpack.js.org/guides/tree-shaking/)
+
+🪐 Isomorphic / Universal -- safe to run in any JS context: the browser or on a server
 
 ## Contributing 👫
 
