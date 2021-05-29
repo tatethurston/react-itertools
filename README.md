@@ -104,7 +104,3 @@ PR's and issues welcomed! For more guidance check out [CONTRIBUTING.md](https://
 ## Licensing 📃
 
 See the project's [MIT License](https://github.com/tatethurston/react-itertools/blob/master/LICENSE).
-
-```
-
-```
