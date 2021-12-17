@@ -16,7 +16,7 @@
     "skipLibCheck": true,
     "sourceMap": false,
     "strict": true,
-    "target": "ESNext"
+    "target": "ES2015"
   },
   "exclude": ["node_modules", "dist"]
 }
