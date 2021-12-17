@@ -1,6 +1,6 @@
 {
   "name": "react-itertools",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A suite of tools for manipulating React children",
   "license": "MIT",
   "author": "Tate <tatethurston@gmail.com>",
